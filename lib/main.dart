@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         child: Scaffold(
           appBar: AppBar(
             backgroundColor: Colors.grey.shade800,
-            title: Text('View Display'),
+            title: Text('Flutter Views'),
             bottom: TabBar(
               isScrollable: true,
               tabs: [
@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
           body: TabBarView(
             children: [
               FirstScreen(),
-              SecondScreen(),
+              MyGridView(),
               ThirdScreen(),
               FourthScreen(),
             ],
